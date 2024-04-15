@@ -87,6 +87,34 @@ section.hospitality {
   height: 300px;
 }
 
+.hospitality-tph-contact {
+  display: flex;
+  justify-content: center;
+  background-color: var(--tour-bg-color);
+  height: 200px;
+  padding: 0;
+}
+
+.hospitality-tph-contact p {
+  font-size: 14px;
+  color: var(--text-color-p-grey);
+}
+
+.hospitality-tph-contact .price {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.hos-item-btn {
+  text-align: center;
+  padding-right: 60px;
+  padding-top: 26px;
+}
+
+.hos-item-btn p {
+  padding-bottom: 40px;
+}
+
 @media (max-width: 700px) {
   .hospitality-row {
     width: 100%;
@@ -111,12 +139,22 @@ section.hospitality {
   }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 550px) {
+  .hospitality-sub-header {
+    background-color: var(--primary-color);
+    height: 70vh;
+  }
+
+  .hospitality-sub-header h1 {
+    margin-top: 30px;
+    color: #fff;
+  }
+
   .testimonial-food {
     margin-bottom: -100px;
   }
 
   .swiper-backface-hidden .swiper-slide {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
   }
 }

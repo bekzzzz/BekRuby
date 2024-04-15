@@ -188,33 +188,20 @@ nav .fa {
     padding: 0;
     overflow-x: hidden;
   }
-}
 
-@media (max-width: 390px) {
-  html,
-  body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+  .header {
+    height: 130vh;
   }
 
   .text-box h1 {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .text-box p {
-    font-size: 14px;
-  }
-
-  .header {
-    min-height: 70vh;
-  }
-
-  .header {
-    min-height: 120vh;
-    width: 100%;
+    width: 300px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 180px;
   }
 }
 
@@ -1477,16 +1464,26 @@ img.lg-object.lg-image {
   }
 }
 
-@media only screen and (max-width: 390px) {
-  .tph-contact {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 40px;
+@media only screen and (max-width: 550px) {
+  .info-item-btn {
+    text-align: center;
+    padding-right: 100px;
+    padding-top: 26px;
   }
 
-  .gallery-container h1 {
-    font-size: 24px;
+  .info-item-btn p {
+    padding-bottom: 40px;
+    padding-left: 30px;
+  }
+
+  .thp-price {
+    padding-top: 26px;
+    padding-right: 50px;
+    text-align: right;
+  }
+
+  .tph-contact {
+    height: 220px;
   }
 }
 
@@ -1554,6 +1551,16 @@ img.lg-object.lg-image {
   font-weight: 600;
 }
 
+a.google-map-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
 @media (max-width: 700px) {
   .description-highlights-map {
     flex-direction: column;
@@ -1568,6 +1575,16 @@ img.lg-object.lg-image {
   .google-map iframe {
     width: 97%;
     height: 200px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .description p {
+    width: 100%;
+  }
+
+  .highlights {
+    width: 100%;
   }
 }
 
@@ -1758,9 +1775,9 @@ svg {
   }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 550px) {
   .itinerary-row {
-    width: 120%;
+    width: 110%;
   }
 
   .itinerary {
@@ -1771,11 +1788,6 @@ svg {
     flex-direction: column;
     align-items: center;
     margin-bottom: 30px;
-  }
-
-  .about-tour-col-info i {
-    overflow: hidden;
-    display: none;
   }
 
   .price-include {
@@ -1793,6 +1805,7 @@ svg {
   .highlights {
     width: 100%;
     padding: 0;
+    padding-bottom: 30px;
   }
 
   .price-not-included-container {
@@ -2127,6 +2140,12 @@ svg {
   margin-right: 10px;
 }
 
+@media only screen and (max-width: 550px) {
+  .sub-header h1 {
+    margin-top: 30px;
+  }
+}
+
 /*---------------------------- testimonial ----------------------------*/
 
 section.testimonial {
@@ -2141,6 +2160,7 @@ section.testimonial {
   padding: 3px;
   padding-bottom: 40px;
 }
+
 .slider-container {
   max-width: 1120px;
   width: 1000%;
@@ -2276,6 +2296,16 @@ section.testimonial {
   .slider-content {
     padding-left: 0;
     padding-right: 0;
+    padding-top: 0;
+  }
+
+  .slider-container .testimonial-title {
+    text-align: center;
+  }
+
+  .testimonial-title h1 {
+    padding: 0;
+    margin-top: 70px;
   }
 }
 
@@ -2433,6 +2463,11 @@ section.testimonial-food {
 @media only screen and (max-width: 550px) {
   .quastion-answers {
     width: 80%;
+  }
+
+  .slider-container .testimonial-title {
+    text-align: center;
+    margin-bottom: 0;
   }
 }
 
@@ -2731,10 +2766,18 @@ section.testimonial-food {
   }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 550px) {
   .contact-left {
     width: 90%;
     height: 464px;
     padding-left: 50px;
+  }
+
+  .about-sub-header h1 {
+    margin-top: 30px;
+  }
+
+  .contact-sub-header h1 {
+    margin-top: 30px;
   }
 }

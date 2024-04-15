@@ -345,9 +345,9 @@ body {
   }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 550px) {
   .abour-us-sub-header {
-    height: 30vh;
+    height: 40vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.8)),
       url(kyrgyzstan-img-ready/about-us-hero-img-3.png);
