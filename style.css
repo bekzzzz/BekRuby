@@ -7,15 +7,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
-
 :root {
   --primary-color: #fa7436;
   --primary-color-dark-orange: #f05323;
@@ -189,7 +180,7 @@ nav .fa {
   }
 }
 
-@media only screen and (max-width: 390px) {
+@media (max-width: 390px) {
   html,
   body {
     width: 100%;
@@ -200,7 +191,7 @@ nav .fa {
   }
 
   .text-box h1 {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .text-box p {
@@ -209,6 +200,11 @@ nav .fa {
 
   .header {
     min-height: 70vh;
+  }
+
+  .header {
+    min-height: 120vh;
+    width: 100%;
   }
 }
 
@@ -719,10 +715,21 @@ div .testimonial-starts-tour .fa {
   }
 }
 
-@media only screen and (max-width: 390px) {
+@media (max-width: 390px) {
   .main-video .video iframe {
     width: 100%;
     height: 236px;
+  }
+
+  .ytp-cued-thumbnail-overlay-image {
+    width: 10%;
+    margin: auto;
+    height: auto;
+  }
+
+  div .video {
+    width: 100%;
+    object-fit: cover;
   }
 }
 
