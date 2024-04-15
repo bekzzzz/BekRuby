@@ -50,18 +50,6 @@ h1 {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 390px) {
-  .header {
-    min-height: 90vh;
-    width: 100%;
-  }
-
-  .head-ruby-logo {
-    width: 180px;
-    margin-top: 10px;
-  }
-}
-
 nav {
   display: flex;
   padding: 2% 4%;
@@ -190,7 +178,7 @@ nav .fa {
   }
 
   .header {
-    height: 130vh;
+    height: 100vh;
   }
 
   .text-box h1 {
