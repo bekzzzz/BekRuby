@@ -1,0 +1,416 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2e364a;
+}
+
+.abour-us-sub-header {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.8)),
+    url(kyrgyzstan-img-ready/about-us-hero-img-3.png);
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+.abour-us-sub-header h1 {
+  margin-top: 100px;
+  color: #fff;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.timeline-container {
+  padding: 15px 50px;
+  position: relative;
+  width: 50%;
+  animation: movedown 1s linear forwards;
+  opacity: 0;
+}
+
+@keyframes movedown {
+  0% {
+    opacity: 1;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.timeline-container:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.timeline-container:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.timeline-container:nth-child(3) {
+  animation-delay: 2s;
+}
+
+.timeline-container:nth-child(4) {
+  animation-delay: 3s;
+}
+
+.timeline-container:nth-child(5) {
+  animation-delay: 4s;
+}
+
+.timeline-container:nth-child(6) {
+  animation-delay: 5s;
+}
+
+.timeline-container:nth-child(7) {
+  animation-delay: 6s;
+}
+
+.timeline-container:nth-child(8) {
+  animation-delay: 7s;
+}
+
+.timeline-container:nth-child(9) {
+  animation-delay: 8s;
+}
+
+.timeline-text-box {
+  height: 400px;
+  padding: 20px 30px;
+  background: #fff;
+  position: relative;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.timeline-left-container {
+  left: 0;
+}
+
+.timeline-right-container {
+  left: 50%;
+}
+
+.timeline-container img {
+  position: absolute;
+  width: 40px;
+  border-radius: 50%;
+  right: -20px;
+  top: 32px;
+  z-index: 10;
+}
+
+.timeline-right-container img {
+  left: -20px;
+}
+
+/*--------------------*/
+.timeline-text-box-img-left {
+  width: 83.3%;
+  height: auto;
+  border-radius: 0;
+  position: absolute;
+  border-radius: 0px;
+  bottom: 10px;
+  z-index: 90;
+  top: 200px;
+}
+
+.timeline-text-box-img-left img {
+  width: 100%;
+  height: 250px;
+  border-radius: 0;
+  position: absolute;
+  border-radius: 0px;
+  z-index: 100;
+  top: 0px;
+  left: 0;
+}
+
+.timeline-text-box-img-right {
+  width: 83.3%;
+  height: auto;
+  border-radius: 0;
+  position: absolute;
+  border-radius: 0px;
+  bottom: 10px;
+  z-index: 90;
+  top: 200px;
+}
+
+.timeline-text-box-img-right img {
+  width: 100%;
+  height: 250px;
+  border-radius: 0;
+  position: absolute;
+  border-radius: 0px;
+  z-index: 100;
+  top: 0px;
+  left: 0;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -1;
+  animation: moveline 6s linear forwards;
+}
+
+@keyframes moveline {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+.timeline-text-box h2 {
+  font-weight: 600;
+}
+
+.timeline-text-box small {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.timeline-left-container-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #fff;
+  right: -15px;
+}
+
+.timeline-right-container-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #fff;
+  left: -15px;
+}
+
+@media screen and (max-width: 700px) {
+  .timeline {
+    margin: 50px auto;
+  }
+  .timeline::after {
+    left: 31px;
+  }
+
+  .timeline-container {
+    width: 100%;
+    padding-left: 82px;
+    padding-right: 25px;
+  }
+
+  .timeline-text-box {
+    font-size: 13px;
+  }
+
+  .timeline-text-box small {
+    margin-bottom: 10px;
+  }
+
+  .timeline-right-container {
+    left: 0;
+  }
+
+  .timeline-left-container img,
+  .timeline-right-container img {
+    left: 10px;
+  }
+
+  .timeline-left-container-arrow,
+  .timeline-right-container-arrow {
+    border-right: 15px solid #fff;
+    border-left: 0;
+    left: -15px;
+  }
+
+  .timeline-text-box-img-left img {
+    width: 95%;
+    height: 255px;
+    border-radius: 0;
+    position: absolute;
+    border-radius: 0px;
+    z-index: 100;
+    top: -40px;
+    left: 0;
+  }
+
+  .timeline-text-box-img-right img {
+    width: 95%;
+    height: 255px;
+    border-radius: 0;
+    position: absolute;
+    border-radius: 0px;
+    z-index: 100;
+    top: -40px;
+    left: 0;
+  }
+
+  .timeline-container {
+    padding-bottom: 30px;
+  }
+
+  .timeline-container img {
+    object-fit: cover;
+  }
+
+  .timeline-img-col {
+    padding-top: 20px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 855px) and (max-width: 1024px) {
+  .timeline-text-box-img-left img {
+    width: 80%;
+    height: 200px;
+    border-radius: 0;
+    position: absolute;
+    border-radius: 0px;
+    z-index: 100;
+    top: 15px;
+    left: 0;
+  }
+
+  .timeline-text-box-img-right img {
+    width: 80%;
+    height: 200px;
+    border-radius: 0;
+    position: absolute;
+    border-radius: 0px;
+    z-index: 100;
+    top: 15px;
+    left: 0;
+  }
+
+  .timeline-container img {
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 863px) {
+  .timeline-text-box-img-left img {
+    width: 90%;
+    height: 200px;
+    border-radius: 0;
+    position: absolute;
+    border-radius: 0px;
+    z-index: 100;
+    top: 50px;
+    left: 0;
+  }
+
+  .timeline-text-box-img-right img {
+    width: 90%;
+    height: 200px;
+    border-radius: 0;
+    position: absolute;
+    border-radius: 0px;
+    z-index: 100;
+    top: 50px;
+    left: 0;
+  }
+
+  .timeline-container img {
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .abour-us-sub-header {
+    height: 30vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.8)),
+      url(kyrgyzstan-img-ready/about-us-hero-img-3.png);
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+  }
+
+  .abour-us-sub-header h1 {
+    margin-top: 50px;
+    color: #fff;
+  }
+
+  .timeline-img-col {
+    padding: 0;
+  }
+
+  .timeline-left-container-arrow,
+  .timeline-right-container-arrow {
+    border-right: 0;
+    border-left: 0;
+  }
+
+  img.kg-img {
+    width: 0;
+  }
+
+  .timeline-container {
+    padding: 0px 10px;
+    width: 98%;
+    animation: movedown 1s linear forwards;
+    opacity: 0;
+    padding-bottom: 30px;
+  }
+
+  img .ruby-img-col {
+    width: 100%;
+  }
+
+  .ruby-img-col {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 40px;
+    align-items: center;
+    margin-left: 30px;
+  }
+
+  .bek-img-col {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    align-items: center;
+    margin-left: 30px;
+  }
+
+  .timeline-text-box {
+    height: 380px;
+    align-items: center;
+  }
+
+  .head-ruby-logo {
+    width: 180px;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,213 @@
+:root {
+  --primary-color: #fa7436;
+  --primary-color-dark-orange: #f05323;
+  --primary-color-green: #5fb49c;
+  --primary-color-green-dark: #36967b;
+  --primary-color-green-btn: linear-gradient(270deg, #5fb49c, #3b8686);
+  --secondary-color: #faf1f1;
+  --button-color-orange: linear-gradient(270deg, #ff994f, #fa6d86);
+  --tour-card-color: #5086c0;
+  --testimonial-background-color: #faf1f1;
+  --testimonail-use-cyrcle-color: rgb(0, 122, 255);
+  --text-color: rgb(26, 26, 26);
+  --text-color-p-grey: rgb(89, 89, 89);
+  --text-color-p-black: rgb(38, 38, 38);
+  --rating-start-color: rgb(255, 183, 0);
+  --primary-dark-blue-color: #003580;
+  --tour-bg-color: #f2e5d7;
+}
+
+.blog-sub-header {
+  width: 100%;
+  height: 50vh;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.8)),
+    url(kyrgyzstan-img-ready/hero-visa.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+.blog-sub-header h1 {
+  margin-top: 100px;
+  color: #fff;
+  font-size: 32px;
+}
+
+.murmur-sub-header {
+  width: 100%;
+  height: 50vh;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.8)),
+    url(kyrgyzstan-img-ready/hero-visa.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+.murmur-sub-header h1 {
+  margin-top: 100px;
+  color: #fff;
+  font-size: 32px;
+}
+
+.group-or-alone-sub-header {
+  width: 100%;
+  height: 50vh;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.8)),
+    url(kyrgyzstan-img-ready/hero-visa.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+.group-or-alone-sub-header h1 {
+  margin-top: 100px;
+  color: #fff;
+  font-size: 32px;
+}
+
+.blog-article {
+  padding-bottom: 50px;
+  background-color: var(--tour-bg-color);
+}
+
+.blog-row {
+  width: 50%;
+  margin: auto;
+  background-color: #fff;
+  padding-bottom: 30px;
+}
+
+.related-row-blog {
+  display: flex;
+  z-index: 20;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+.blog-info {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.mur-mur-blog-info {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.group-or-blog-info {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.blog-col-img img {
+  width: 100%;
+  height: 400px;
+  padding-top: 20px;
+}
+
+.blog-col h2 {
+  margin-top: 40px;
+}
+
+.blog-col h3 {
+  margin-top: 40px;
+  color: var(--text-color-p-grey);
+}
+
+.blog-col p {
+  margin-top: 10px;
+  line-height: 40px;
+  color: var(--text-color-p-grey);
+}
+
+@media (max-width: 700px) {
+  .blog-row {
+    width: 100%;
+    margin: auto;
+  }
+
+  .blog-sub-header {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.8)),
+      url(blog/5\ thins\ to\ do.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+  }
+
+  .murmur-sub-header {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.8)),
+      url(blog/murmur.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+  }
+
+  .group-or-alone-sub-header {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.8)),
+      url(blog/ata-horse-child.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+  }
+
+  .blog-sub-header,
+  .murmur-sub-header,
+  .group-or-alone-sub-header h1 {
+    font-size: 24px;
+  }
+
+  .blog-col-img {
+    width: 0;
+  }
+
+  .blog-info {
+    margin-top: -300px;
+  }
+
+  .mur-mur-blog-info {
+    margin-top: -300px;
+  }
+
+  .group-or-blog-info {
+    margin-top: -300px;
+  }
+
+  .blog-sub-header h1 {
+    margin-top: 100px;
+    color: #fff;
+    font-size: 24px;
+  }
+
+  .blog-article {
+    padding-bottom: 0;
+  }
+
+  .related-row-blog {
+    z-index: 20;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .group-or-alone-sub-header h1 {
+    font-size: 24px;
+    width: 70%;
+    margin: auto;
+    margin-top: 150px;
+  }
+}
