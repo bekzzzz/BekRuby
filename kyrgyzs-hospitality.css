@@ -90,7 +90,7 @@ section.hospitality {
 .hospitality-tph-contact {
   display: flex;
   justify-content: center;
-  background-color: var(--tour-bg-color);
+  background-color: #fff;
   height: 200px;
   padding: 0;
 }
@@ -156,5 +156,9 @@ section.hospitality {
 
   .swiper-backface-hidden .swiper-slide {
     margin-bottom: 200px;
+  }
+
+  .hospitality-tph-contact {
+    background-color: var(--tour-bg-color);
   }
 }
