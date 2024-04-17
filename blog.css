@@ -130,10 +130,6 @@
 }
 
 @media only screen and (max-width: 550px) {
-  .blog-header h1 {
-    margin-top: 30px;
-  }
-
   .blog {
     width: 80%;
     margin: auto;

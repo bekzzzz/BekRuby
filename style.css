@@ -1130,6 +1130,10 @@ svg {
   color: var(--text-color);
 }
 
+.tours-date {
+  color: var(--primary-color-dark-orange);
+}
+
 /*--------------- 7 dyas tour --------------*/
 
 /*----gallery ----*/
@@ -1475,6 +1479,10 @@ img.lg-object.lg-image {
   }
 }
 
+p.per-about-p {
+  margin-top: 30px;
+}
+
 .description-highlights-map {
   width: 80%;
   margin: auto;
@@ -1541,7 +1549,16 @@ img.lg-object.lg-image {
 
 a.google-map-link {
   text-decoration: none;
-  color: var(--primary-color);
+}
+
+.google-btn {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: solid;
+  border-color: var(--primary-color);
+  cursor: pointer;
+  margin-top: 10px;
 }
 
 a {
@@ -1945,6 +1962,12 @@ svg {
 .important-info-col p {
   color: var(--text-color-p-grey);
   padding: 0;
+  line-height: 30px;
+}
+
+.important-info-col ol li {
+  padding-top: 10px;
+  color: var(--text-color-p-grey);
 }
 
 /*---- cancellation policy ----*/
@@ -1975,6 +1998,7 @@ svg {
 .cancellation-policy p {
   color: var(--text-color-p-grey);
   padding: 0;
+  line-height: 30px;
 }
 
 /* .pricing-info {

@@ -99,6 +99,10 @@
   margin-bottom: 50px;
 }
 
+.mur-mur-blog-info p.ruby-blog-p {
+  padding-top: 30px;
+}
+
 .group-or-blog-info {
   width: 60%;
   margin: auto;
@@ -204,10 +208,18 @@
 }
 
 @media only screen and (max-width: 550px) {
-  .blog-sub-header,
-  .murmur-sub-header,
   .group-or-alone-sub-header h1 {
-    margin-top: 30px;
+    margin-top: 50px;
+    font-size: 20px;
+  }
+
+  .murmur-sub-header h1 {
+    margin-top: 50px;
+    font-size: 20px;
+  }
+
+  .blog-sub-header h1 {
+    margin-top: 50px;
     font-size: 20px;
   }
 }
