@@ -235,6 +235,7 @@ nav .fa {
 .about-right p {
   margin-bottom: 20px;
   color: var(--text-color-p-grey);
+  width: 100%;
 }
 
 .about-us-btn {
