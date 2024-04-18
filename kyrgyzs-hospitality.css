@@ -161,4 +161,9 @@ section.hospitality {
   .hospitality-tph-contact {
     background-color: var(--tour-bg-color);
   }
+
+  .hospitality-sub-header h1 {
+    margin-top: 250px;
+    color: #fff;
+  }
 }
