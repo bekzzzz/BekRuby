@@ -1467,31 +1467,30 @@ img.lg-object.lg-image {
 
   .tph-contact {
     justify-content: center;
-    padding-left: 90px;
-    padding-bottom: 30px;
   }
 }
 
 @media only screen and (max-width: 550px) {
   .info-item-btn {
     text-align: center;
-    padding-right: 100px;
-    padding-top: 26px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
   }
 
-  .info-item-btn p {
-    padding-bottom: 40px;
-    padding-left: 30px;
+  .item-hero-btn span {
+    font-size: 16px;
   }
 
   .thp-price {
     padding-top: 26px;
-    padding-right: 50px;
+    padding-right: 20px;
+    padding-left: 40px;
     text-align: right;
   }
 
   .tph-contact {
-    height: 220px;
+    height: 240px;
   }
 }
 
