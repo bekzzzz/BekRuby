@@ -1492,6 +1492,10 @@ img.lg-object.lg-image {
   .tph-contact {
     height: 240px;
   }
+
+  .item-hero-btn {
+    padding: 10px 30px;
+  }
 }
 
 p.per-about-p {
