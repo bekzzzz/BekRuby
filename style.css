@@ -1677,7 +1677,7 @@ a {
 }
 
 .itinerary-day-cal.active .itinerary-answer {
-  max-height: 600px;
+  max-height: 650px;
   animation: fade 1s ease-in-out;
 }
 
@@ -1837,6 +1837,13 @@ svg {
 
   section.testimonial {
     margin-bottom: -150px;
+  }
+
+  .about-tour-col p {
+    font-size: 16px;
+    padding: 15px 0 25px;
+    color: #505050;
+    align-items: center;
   }
 }
 
