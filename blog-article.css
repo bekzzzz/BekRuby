@@ -222,4 +222,30 @@
     margin-top: 50px;
     font-size: 20px;
   }
+
+  .mur-mur-blog-info {
+    width: 100%;
+  }
+  .mur-mur-blog-info p {
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    line-height: 27px;
+  }
+
+  .group-or-blog-info {
+    width: 100%;
+  }
+
+  .blog-col h3 {
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+  }
+
+  .blog-col p {
+    width: 70%;
+    margin: auto;
+    line-height: 27px;
+  }
 }
