@@ -191,6 +191,10 @@ nav .fa {
     color: #fff;
     margin-bottom: 180px;
   }
+
+  .nav-links ul li::after {
+    display: none;
+  }
 }
 
 /*--------------- About Us Page --------------*/
@@ -2180,7 +2184,7 @@ svg {
 
 @media only screen and (max-width: 550px) {
   .sub-header h1 {
-    margin-top: 30px;
+    margin-top: 150px;
   }
 }
 
@@ -2811,11 +2815,11 @@ section.testimonial-food {
     padding-left: 50px;
   }
 
-  .about-sub-header h1 {
-    margin-top: 30px;
+  .contact-sub-header h1 {
+    margin-top: 150px;
   }
 
-  .contact-sub-header h1 {
-    margin-top: 30px;
+  .about-sub-header h1 {
+    margin-top: 150px;
   }
 }

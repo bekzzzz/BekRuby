@@ -209,17 +209,17 @@
 
 @media only screen and (max-width: 550px) {
   .group-or-alone-sub-header h1 {
-    margin-top: 50px;
+    margin-top: 150px;
     font-size: 20px;
   }
 
   .murmur-sub-header h1 {
-    margin-top: 50px;
+    margin-top: 150px;
     font-size: 20px;
   }
 
   .blog-sub-header h1 {
-    margin-top: 50px;
+    margin-top: 150px;
     font-size: 20px;
   }
 
