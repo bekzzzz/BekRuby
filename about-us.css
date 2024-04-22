@@ -4,6 +4,24 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
+:root {
+  --primary-color: #fa7436;
+  --primary-color-dark-orange: #f05323;
+  --primary-color-green: #5fb49c;
+  --primary-color-green-dark: #36967b;
+  --primary-color-green-btn: linear-gradient(270deg, #5fb49c, #3b8686);
+  --secondary-color: #faf1f1;
+  --button-color-orange: linear-gradient(270deg, #ff994f, #fa6d86);
+  --tour-card-color: #5086c0;
+  --testimonial-background-color: #faf1f1;
+  --testimonail-use-cyrcle-color: rgb(0, 122, 255);
+  --text-color: rgb(26, 26, 26);
+  --text-color-p-grey: rgb(89, 89, 89);
+  --text-color-p-black: rgb(38, 38, 38);
+  --rating-start-color: rgb(255, 183, 0);
+  --primary-dark-blue-color: #003580;
+  --tour-bg-color: #f2e5d7;
+}
 
 body {
   background: #2e364a;
@@ -34,10 +52,12 @@ body {
   padding: 15px 50px;
   position: relative;
   width: 50%;
-  animation: movedown 1s linear forwards;
-  opacity: 0;
+  /*
+  animation: movedown 1s linear forwards; */
+  opacity: 1;
 }
 
+/*
 @keyframes movedown {
   0% {
     opacity: 1;
@@ -47,7 +67,9 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
-}
+} */
+
+/*
 
 .timeline-container:nth-child(1) {
   animation-delay: 0s;
@@ -83,7 +105,7 @@ body {
 
 .timeline-container:nth-child(9) {
   animation-delay: 8s;
-}
+} */
 
 .timeline-text-box {
   height: 400px;
@@ -315,6 +337,10 @@ body {
   .timeline-container img {
     object-fit: cover;
   }
+
+  .timeline-container {
+    opacity: 1;
+  }
 }
 
 @media screen and (min-width: 700px) and (max-width: 863px) {
@@ -343,21 +369,26 @@ body {
   .timeline-container img {
     object-fit: cover;
   }
+
+  .timeline-container {
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 550px) {
   .abour-us-sub-header {
-    height: 40vh;
+    height: 50vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.8)),
-      url(kyrgyzstan-img-ready/about-us-hero-img-3.png);
+      url(hero-page-img/about-us-sunset.png);
     background-size: cover;
     text-align: center;
     color: #fff;
+    background-position: center;
   }
 
   .abour-us-sub-header h1 {
-    margin-top: 80px;
+    margin-top: 140px;
     color: #fff;
   }
 
@@ -412,5 +443,9 @@ body {
   .head-ruby-logo {
     width: 180px;
     margin-top: 10px;
+  }
+
+  .timeline-container {
+    opacity: 1;
   }
 }
