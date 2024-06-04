@@ -539,99 +539,15 @@ div .testimonial-starts-tour .fa {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 15px;
-  align-items: flex-start;
-  padding: 5px 5%;
-}
-
-.container .main-video {
-  background: #fff;
-  border-radius: 5px;
-  padding: 10px;
+  width: 100%;
+  margin: auto;
+  height: 100%;
 }
 
 .container .main-video iframe {
   width: 100%;
-  height: 387px;
-
+  height: 560px;
   border-radius: 5px;
-}
-
-.container .main-video .title {
-  color: #333;
-  font-size: 23px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.container .video-list {
-  background: #fff;
-  border-radius: 5px;
-  height: 520px;
-  overflow-y: scroll;
-}
-
-.container .video-list::-webkit-scrollbar {
-  width: 7px;
-}
-
-.container .video-list::-webkit-scrollbar-track {
-  background: #ccc;
-  border-radius: 50px;
-}
-
-.container .video-list::-webkit-scrollbar-thumb {
-  background: #666;
-  border-radius: 50px;
-}
-
-.container .video-list .vid iframe {
-  width: 100%;
-  height: 199px;
-  border-radius: 5px;
-}
-
-.container .video-list .vid iframe {
-  width: 100%;
-  height: 199px;
-  border-radius: 5px;
-}
-
-.container .video-list .vid video {
-  width: 0px;
-  border-radius: 5px;
-}
-
-.container .video-list .vid img {
-  width: 100%;
-  border-radius: 5px;
-}
-
-.container .video-list .vid {
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  margin-bottom: 15px;
-}
-
-.container .video-list .vid:hover {
-  background: #eee;
-}
-
-.container .video-list .vid.active {
-  background: #2980b9;
-}
-
-.container .video-list .vid.active .title {
-  color: #fff;
-}
-
-.container .video-list .vid .title {
-  color: #333;
-  font-size: 17px;
 }
 
 .youtube-hero-btn {
