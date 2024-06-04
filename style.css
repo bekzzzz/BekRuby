@@ -250,8 +250,6 @@ nav .fa {
 
 .about-us-btn-email {
   background: linear-gradient(270deg, #ff994f, #fa6d86);
-  /*background: linear-gradient(270deg, #007bff, #0056b3);
-  /*background: linear-gradient(270deg, #5fb49c, #3b8686);*/
   border: none;
   color: #ffffff;
   text-align: center;
@@ -1727,20 +1725,6 @@ svg {
 .content-image {
   flex-basis: 50%;
 }
-/* .about-tour-col img {
-  width: 100%;
-  border-radius: 15px;
-} */
-
-/* .overnight {
-  display: flex;
-  align-items: center;
-} */
-
-/* .overnight p {
-  margin: 0;
-  padding: 0;
-}  */
 
 .overnight .fa {
   margin-right: 10px;
@@ -1859,7 +1843,6 @@ svg {
 .important-info {
   width: 80%;
   margin: auto;
-  /* background-color: #fff; */
 }
 
 /*---- suitable for ----*/
@@ -2030,23 +2013,6 @@ svg {
   padding: 0;
   line-height: 30px;
 }
-
-/* .pricing-info {
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 0;
-  padding-top: 0;
-}
-
-.price-include {
-  padding-left: 50px;
-  width: 100%;
-  padding-bottom: 50px;
-}
-
-.price-not-included-container {
-  width: 100%;
-} */
 
 @media (max-width: 700px) {
   .suitable-for {
@@ -2746,27 +2712,6 @@ section.testimonial-food {
   opacity: 1;
   right: 0;
 }
-
-/*.contact-right button {
-  display: flex;
-  align-items: center;
-  padding: 15px 30px;
-  font-size: 16px;
-  color: #fff;
-  gap: 10px;
-  border: none;
-  border-radius: 50px;
-  background: linear-gradient(270deg, #ff994f, #fa6d86);
-  cursor: pointer;
-}
-
-.contact-right button img {
-  height: 15px;
-}
-
-.contact-left img {
-  width: 500px; 
-} */
 
 @media (max-width: 800px) {
   .contact-container {
