@@ -328,7 +328,7 @@ body {
     height: 50vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.8)),
-      url(hero-page-img/about-us-sunset.png);
+      url(hero-page-img/about-us-sunset.jpg);
     background-size: cover;
     text-align: center;
     color: #fff;

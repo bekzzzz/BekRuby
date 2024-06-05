@@ -20,7 +20,7 @@ body {
   height: 50vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.8)),
-    url(images/hero-img.png);
+    url(hero-page-img/hospitality.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
