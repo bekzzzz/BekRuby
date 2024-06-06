@@ -1,19 +1,5 @@
 :root {
-  --primary-color: #fa7436;
-  --primary-color-dark-orange: #f05323;
-  --primary-color-green: #5fb49c;
-  --primary-color-green-dark: #36967b;
-  --primary-color-green-btn: linear-gradient(270deg, #5fb49c, #3b8686);
-  --secondary-color: #faf1f1;
-  --button-color-orange: linear-gradient(270deg, #ff994f, #fa6d86);
-  --tour-card-color: #5086c0;
-  --testimonial-background-color: #faf1f1;
-  --testimonail-use-cyrcle-color: rgb(0, 122, 255);
-  --text-color: rgb(26, 26, 26);
   --text-color-p-grey: rgb(89, 89, 89);
-  --text-color-p-black: rgb(38, 38, 38);
-  --rating-start-color: rgb(255, 183, 0);
-  --primary-dark-blue-color: #003580;
   --tour-bg-color: #f2e5d7;
 }
 
@@ -21,7 +7,7 @@
   width: 100%;
   height: 50vh;
   background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.8)),
-    url(hero-page-img/hero-visa.jpg);
+    url(blog/5\ thins\ to\ do.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -30,6 +16,7 @@
 
 .blog-sub-header h1 {
   margin-top: 100px;
+  position: relative;
   color: #fff;
   font-size: 32px;
 }
@@ -38,11 +25,10 @@
   width: 100%;
   height: 50vh;
   background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.8)),
-    url(hero-page-img/hero-visa.jpg);
+    url(blog/murmur.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
-  color: #fff;
 }
 
 .murmur-sub-header h1 {
@@ -55,7 +41,7 @@
   width: 100%;
   height: 50vh;
   background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.8)),
-    url(hero-page-img/hero-visa.jpg);
+    url(blog/ata-horse-child.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -69,14 +55,16 @@
 }
 
 .blog-article {
-  padding-bottom: 50px;
   background-color: var(--tour-bg-color);
+  padding-bottom: 50px;
+  margin-top: -40px;
 }
 
 .blog-row {
   width: 50%;
   margin: auto;
   background-color: #fff;
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
@@ -85,6 +73,37 @@
   z-index: 20;
   justify-content: space-evenly;
   margin-top: 60px;
+}
+
+.blog-col-info div p {
+  padding-bottom: 20px;
+}
+
+.blog-col-info a {
+  text-decoration: none;
+  color: #000;
+}
+
+.blog-col-info img {
+  width: 100%;
+}
+
+.blog-col-info p {
+  padding: 0;
+  font-size: 14px;
+}
+
+.blog-col-info h3 {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: left;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.blog-col-info p {
+  color: var(--text-color-p-grey);
+  margin-bottom: 10px;
 }
 
 .blog-info {
@@ -99,20 +118,10 @@
   margin-bottom: 50px;
 }
 
-.mur-mur-blog-info p.ruby-blog-p {
-  padding-top: 30px;
-}
-
 .group-or-blog-info {
   width: 60%;
   margin: auto;
   margin-bottom: 50px;
-}
-
-.blog-col-img img {
-  width: 100%;
-  height: 400px;
-  padding-top: 20px;
 }
 
 .blog-col h2 {
@@ -139,19 +148,15 @@
   .blog-sub-header {
     width: 100%;
     height: 50vh;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.8)),
-      url(blog/5\ thins\ to\ do.png);
     background-position: center;
     background-size: cover;
     text-align: center;
-    color: #fff;
   }
 
   .murmur-sub-header {
     width: 100%;
     height: 50vh;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.8)),
-      url(blog/murmur.png);
+
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -161,8 +166,7 @@
   .group-or-alone-sub-header {
     width: 100%;
     height: 50vh;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.8)),
-      url(blog/ata-horse-child.png);
+
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -173,10 +177,6 @@
   .murmur-sub-header,
   .group-or-alone-sub-header h1 {
     font-size: 24px;
-  }
-
-  .blog-col-img {
-    width: 0;
   }
 
   .blog-info {
@@ -204,6 +204,10 @@
   .related-row-blog {
     z-index: 20;
     flex-direction: column;
+  }
+
+  .blog-col-info {
+    margin-top: 300px;
   }
 }
 
@@ -237,13 +241,17 @@
     width: 100%;
   }
 
-  .blog-col h3 {
+  .blog-col-info {
+    margin-top: 300px;
+  }
+
+  .blog-col-info h3 {
     width: 70%;
     margin: auto;
     padding-top: 20px;
   }
 
-  .blog-col p {
+  .blog-col-info p {
     width: 70%;
     margin: auto;
     line-height: 27px;
