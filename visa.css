@@ -10,9 +10,6 @@ body {
 }
 
 :root {
-  --primary-color: #003580;
-  --testimonial-background-color: #faf1f1;
-  --tour-bg-color: #f2e5d7;
   --text-color-p-grey: rgb(89, 89, 89);
   --text-color-p-black: rgb(38, 38, 38);
 }
@@ -156,23 +153,19 @@ img {
   font-weight: 600;
 }
 
-.visa-quastion-answers p {
+.more-info {
   margin-top: 50px;
 }
 
 @media (max-width: 700px) {
   .visa-sub-header {
-    width: 100%;
-    height: 50vh;
     background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.8)),
       url(images/visa-photo.jpeg);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: #fff;
   }
+
   .visa {
     width: 90%;
+    height: 60vh;
     text-align: left;
   }
 
@@ -189,12 +182,6 @@ img {
   .visa-info {
     padding-top: 60px;
     margin-left: -30px;
-  }
-
-  .visa-quastion-answers {
-    padding-top: 200px;
-    width: 90%;
-    padding-bottom: 100px;
   }
 
   .visa-quastion-answers h2 {
@@ -217,8 +204,8 @@ img {
     margin-left: -10px;
   }
 
-  .visa-quastion-answers {
-    padding-top: 70px;
+  section.visa-quastion-answers {
+    padding-top: 150px;
   }
 
   .visa-quastion-answers {
