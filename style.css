@@ -1765,6 +1765,25 @@ svg {
   margin: auto;
 }
 
+/*---- price for group ----*/
+.price-group-info {
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.price-group-info h2 {
+  color: var(--text-color);
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+@media (max-width: 700px) {
+  .price-group-info {
+    margin-top: -50px;
+    margin-bottom: 50px;
+  }
+}
+
 /*---- suitable for ----*/
 
 .pricing-info {
@@ -1903,6 +1922,11 @@ svg {
   color: var(--text-color-p-grey);
 }
 
+.price-group-info p {
+  color: var(--text-color-p-grey);
+  padding: 0;
+  line-height: 30px;
+}
 /*---- cancellation policy ----*/
 
 .cancellation-policy-container {
