@@ -374,9 +374,7 @@ nav .fa {
 }
 
 .tour-col {
-  /*background-color: var(--tour-card-color);*/
   background-color: #fff;
-
   border-radius: 24px;
   padding-bottom: 30px;
   margin-bottom: 30px;
@@ -663,6 +661,10 @@ div .testimonial-starts-tour .fa {
   .section-video h1 {
     font-size: 24px;
   }
+
+  .why-us {
+    padding-bottom: 100px;
+  }
 }
 
 /*---------- more information Q&A -----------*/
@@ -878,7 +880,7 @@ svg {
 }
 
 .second-links-ul {
-  padding-left: 50px;
+  padding-left: 20px;
 }
 
 .footer-nav-links {
@@ -888,7 +890,7 @@ svg {
 }
 
 .footer-nav-links ul {
-  padding-right: 30px;
+  padding-right: 0px;
 }
 
 .footer-nav-links ul li {
@@ -1083,6 +1085,15 @@ svg {
     margin-left: 0px;
     align-items: center;
     justify-content: center;
+  }
+
+  .footer-btn {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-btn-email {
+    padding: 12px 20px;
   }
 }
 
@@ -1787,7 +1798,7 @@ svg {
   }
 
   section.testimonial {
-    margin-bottom: -150px;
+    margin-bottom: 0px;
   }
 
   .about-tour-col p {
@@ -2393,13 +2404,6 @@ section.testimonial-food {
 
 .card-content .fa {
   color: var(--rating-start-color);
-}
-
-.testimonial-description {
-  font-size: 14px;
-  color: var(--text-color-p-grey);
-  text-align: center;
-  margin-top: 14px;
 }
 
 .button:hover {
