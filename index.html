@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="blog.css" />
     <link rel="stylesheet" href="guest.review.css" />
+    <link rel="stylesheet" href="des-link.css">
 
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
@@ -55,7 +56,17 @@
           <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
             <li><a href="index.html">HOME</a></li>
-            <li><a href="tours.html">TOURS</a></li>
+
+            <!---------- new link ----------->
+            <li class="des-menu-item">
+              <a href="#" class="des-menu-link">Destination</a>
+              <ul class="dropdown">
+                <li><a href="tours.html" class="dropdown-link">KYRGYZSTAN</a></li>
+                <li><a href="eight-days-tour.html" class="dropdown-link">UZBEKSTAN</a></li>
+              
+              </ul>
+            </li>
+
             <li><a href="blog.html">BLOG</a></li>
             <li>
               <a target="_blank" href="https://www.youtube.com/@bek_ruby"
