@@ -1,0 +1,105 @@
+.uz-destination {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.uz-container {
+  position: relative;
+}
+
+.uz-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay p,
+.overlay h1 {
+  margin-bottom: 20px;
+}
+
+.about-uz-btn {
+  margin-top: 20px;
+}
+
+.about-col-1 {
+  flex-basis: 60%;
+}
+
+.about-col-1 img {
+  object-fit: cover;
+}
+
+.about-col-2 {
+  flex-basis: 40%;
+  position: relative;
+}
+
+.about-col h1 {
+  padding-top: 0;
+  font-size: 40px;
+  text-align: center;
+}
+.about-col p {
+  width: 82%;
+  padding: 15px 0 25px;
+  padding-bottom: 30px;
+  line-height: 1.6;
+  margin: 0 auto; /* add this line */
+  text-align: center; /* add this line */
+}
+
+.about-uz-btn {
+  text-align: center;
+}
+
+.red-hero-btn.red-btn {
+  /*border: 1px solid #f44336;*/
+  border: 1px solid gray;
+  background: transparent;
+  /*color: #f44336; */
+  color: gray;
+  padding: 10px;
+}
+.red-hero-btn.red-btn:hover {
+  border: 1px solid #f44336;
+  background: #f44336;
+  color: #fff;
+}
+.red-hero-btn.red-btn::after {
+  background: #f44336;
+}
+.red-hero-btn.red-btn::before {
+  background: #f44336;
+}
+.content-image {
+  flex-basis: 50%;
+}
+.about-col img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  .uz-destination {
+    width: 100%;
+    height: 200vh;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+
+  .about-col-1 {
+    order: 2;
+  }
+
+  .about-col-2 {
+    order: 1;
+  }
+}
