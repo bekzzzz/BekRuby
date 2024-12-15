@@ -1386,6 +1386,10 @@ img.lg-object.lg-image {
   font-size: 16px;
 }
 
+.date-month {
+  margin-bottom: 10px;
+}
+
 .tour-left-info-bottom ul {
   padding-top: 26px;
   padding-right: 50px;
@@ -1625,6 +1629,10 @@ a {
 @media (max-width: 700px) {
   .description-highlights-map {
     flex-direction: column;
+  }
+
+  .description h2 {
+    font-size: 18px;
   }
 }
 
@@ -2406,6 +2414,12 @@ section.testimonial-food {
   color: var(--text-color);
 }
 
+.food-description {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
 .testimonial-title p {
   color: var(--text-color-p-grey);
 }
@@ -2537,11 +2551,69 @@ section.testimonial-food {
 
 /*---------------------------- Accommodation ----------------------------*/
 
+.accommodation-section {
+  width: 80%;
+  margin: auto;
+}
+
+.accommodation-list {
+  margin-bottom: 50px;
+}
+
+.accommodation-list img {
+  width: 100%;
+}
+
 .accommodation {
   width: 80%;
   margin: auto;
   text-align: center;
   padding-top: 50px;
+}
+
+.accommodation p {
+  margin-bottom: 20px;
+}
+
+.accommodation-list h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.accommodation-h3-p h3 {
+  margin-top: 30px;
+}
+
+.accommodation-info {
+  display: flex;
+  flex-basis: 48%;
+  width: 100%;
+  background-color: #fff;
+}
+
+.accommodation-info p {
+  width: 60%;
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.accommodation-info img {
+  width: 50%;
+}
+
+.accommodation h1 {
+  padding-bottom: 10px;
+}
+
+.accommodation h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.accommodation p {
+  color: var(--text-color-p-grey);
 }
 
 .accommodation-row-1 {
@@ -2578,6 +2650,25 @@ section.testimonial-food {
 }
 
 @media screen and (max-width: 700px) {
+  .accommodation {
+    width: 90%;
+  }
+
+  .accommodation-info {
+    flex-direction: column;
+  }
+
+  .accommodation-info img {
+    width: 100%;
+  }
+
+  .accommodation-info p {
+    width: 100%;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 0px;
+  }
+
   .accommodation-row-1 {
     flex-direction: column;
   }
@@ -2804,6 +2895,10 @@ section.testimonial-food {
 }
 
 @media (max-width: 700px) {
+  .about-sub-header {
+    height: 400px;
+  }
+
   .about-sub-header ul li a {
     color: white;
   }
