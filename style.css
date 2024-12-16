@@ -806,6 +806,7 @@ svg {
 
 .instagram a {
   color: #e14819;
+  text-decoration: underline;
 }
 
 .instagram h1 {
