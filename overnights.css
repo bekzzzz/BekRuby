@@ -114,9 +114,10 @@ button {
   }
 
   .text-overlay {
+    width: 80%;
     font-size: 14px !important;
-    top: 5%;
-    left: 50%;
+    top: 1%;
+    left: 40%;
     transform: translateX(-50%);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   }

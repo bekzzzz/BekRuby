@@ -9,7 +9,15 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>吉爾吉斯旅遊 - Tours</title>
+
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="blog.css" />
+    <link rel="stylesheet" href="guest.review.css" />
+    <link rel="stylesheet" href="des-link.css" />
+    <link rel="stylesheet" href="overnights.css" />
+    <link rel="stylesheet" href="welcome-uz.css" />
+    <link rel="stylesheet" href="other-tours.css" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
       rel="stylesheet"
@@ -25,6 +33,17 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
+    <!---------- Slider testemonial  ----------->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+    ></script>
+    <script defer src="testimonial.js"></script>
   </head>
   <body>
     <section class="sub-header">
@@ -61,22 +80,20 @@
     <section class="tour">
       <div class="tour-info">
         <h1>專注在秘境風景和當地生活的體驗</h1>
-
         <p class="tour-info-p">Top Destinations</p>
 
         <div class="row-tour">
           <a href="seven-days-tour.html">
             <div class="tour-col">
-              <img src="images/7-days-tour.jpg" alt="" />
+              <img loading="lazy" src="images/7-days-tour.jpg" alt="" />
               <h4>
-                7 天夏 經典行程 &nbsp; &nbsp; &nbsp; &nbsp;<span
+                經典七天 罌粟花海 &nbsp; &nbsp; &nbsp; &nbsp;<span
                   class="tours-date"
-                  >拼團日期</span
-                >
+                ></span>
               </h4>
               <div class="tour-days">
                 <i class="fa fa-location-arrow"></i>
-                <p>7 Days Trip</p>
+                <p>Poppy Blossom</p>
                 <div class="testimonial-starts-tour">
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
@@ -88,28 +105,15 @@
             </div>
           </a>
 
-          <a href="kyrgyzs-hospitality.html">
+          <a href="classic-eight-days.html">
             <div class="tour-col">
-              <img src="images/cooking-oneday-tour.jpg" alt="" />
-              <h4>體驗當地美食</h4>
-              <div class="tour-days">
-                <i class="fa fa-location-arrow"></i>
-                <p>1 Days Trip</p>
-                <div class="testimonial-starts-tour">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                </div>
-              </div>
-            </div>
-          </a>
+              <img loading="lazy" src="images/classic-8 days.png" alt="" />
+              <h4>
+                經典八天 頌湖&nbsp; &nbsp; &nbsp; &nbsp;<span class="tours-date"
+                  >Song-Kul</span
+                >
+              </h4>
 
-          <a href="eight-days-tour.html">
-            <div class="tour-col">
-              <img src="images/autmn-tours.jpg" alt="" />
-              <h4>8天秋 客製化行程</h4>
               <div class="tour-days">
                 <i class="fa fa-location-arrow"></i>
                 <p>8 Days Trip</p>
@@ -123,6 +127,158 @@
               </div>
             </div>
           </a>
+
+          <a href="8-days-migration.html">
+            <div class="tour-col">
+              <img loading="lazy" src="images/8 days migration.jpg" alt="" />
+              <h4>
+                經典八天＋動物大遷移(第三天)&nbsp; &nbsp; &nbsp; &nbsp;<span
+                  class="tours-date"
+                ></span>
+              </h4>
+              <div class="tour-days">
+                <i class="fa fa-location-arrow"></i>
+                <p>一年一團</p>
+                <div class="testimonial-starts-tour">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!---------- Small tours ----------->
+
+    <section class="testimonial-small-tours">
+      <div class="slider-container swiper">
+        <div class="testimonial-title">
+          <div class="food-title-div">
+            <h1>Special Tours</h1>
+            <p class="food-description"></p>
+          </div>
+        </div>
+        <div class="slider-content">
+          <div class="card-wrapper swiper-wrapper">
+            <div class="food-card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                <div class="food-card-image">
+                  <img
+                    loading="lazy"
+                    src="images/nooryz.jpg"
+                    class="card-img"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="card-content-1-small">
+                <h2 class="name">諾魯茲新年慶典</h2>
+                <h4>七天</h4>
+
+                <a
+                  target="_blank"
+                  href="https://kyrgyzstan-tour.notion.site/2025-BekRuby-155e583a17c180debecaf74a699e8a0e"
+                  class="small-tours-btn"
+                  data-swiper-no-swiping
+                  >點入看行程</a
+                >
+                <div class="small-tours-highlights">
+                  <h4>特色</h4>
+                  <p class="testimonial-description">
+                    諾魯茲節是吉爾吉斯的新年，根植於薩滿文化與游牧傳統。
+                    蘇姆洛克Sumolok 製作：
+                    一道特別的傳統料理，三天三夜的精心烹煮。
+                    騎馬比賽，來自吉爾吉斯七個地區隊伍的比賽。
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="food-card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                <div class="food-card-image">
+                  <img
+                    loading="lazy"
+                    src="images/off road.png"
+                    class="card-img"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="card-content-1-small">
+                <h2 class="name">越野之旅</h2>
+                <h4>七天</h4>
+
+                <a
+                  target="_blank"
+                  href="https://kyrgyzstan-tour.notion.site/2025-BekRuby-155e583a17c180debecaf74a699e8a0e"
+                  class="small-tours-btn"
+                  data-swiper-no-swiping
+                  >點入看行程</a
+                >
+
+                <div class="small-tours-highlights">
+                  <h4>特色</h4>
+                  <p class="testimonial-description">
+                    通過越野車抵達前往山區牧場和偏遠湖泊，深入體驗真正的游牧生活。
+                    探索壯麗的阿克賽山谷（Ak Sai
+                    Valley），騎馬前往位於海拔3500米的克蘇湖（Kel-Suu Lake
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="food-card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                <div class="food-card-image">
+                  <img
+                    loading="lazy"
+                    src="images/pamir.png"
+                    class="card-img"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="card-content-1-small">
+                <h2 class="name">帕米爾高原</h2>
+                <h4>五天</h4>
+
+                <a
+                  target="_blank"
+                  href="https://kyrgyzstan-tour.notion.site/2025-BekRuby-155e583a17c180debecaf74a699e8a0e"
+                  class="small-tours-btn"
+                  data-swiper-no-swiping
+                  >點入看行程</a
+                >
+
+                <div class="small-tours-highlights">
+                  <h4>特色</h4>
+                  <p class="testimonial-description">
+                    吉爾吉斯南部的獨特魅力，融合了游牧與定居文化的精彩面貌
+                    具挑戰性約6.5小時的徒步旅行者之路（Traveler’s Pass）
+                    在圖帕湖（Tulpar
+                    Lake）旁的蒙古包內，欣賞壯麗的列寧峰（海拔7,134米）的迷人景色。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-button-next swiper-navBtn small-swiper-navBtn"
+          ></div>
+          <div
+            class="swiper-button-prev swiper-navBtn small-swiper-navBtn"
+          ></div>
+          <div class="swiper-pagination"></div>
         </div>
       </div>
     </section>
@@ -201,6 +357,7 @@
       </div>
     </section>
 
+    <script src="testimonial.js"></script>
     <script>
       var navLinks = document.getElementById("navLinks");
 
