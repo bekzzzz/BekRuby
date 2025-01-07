@@ -1586,12 +1586,16 @@ img.lg-object.lg-image {
   padding: 30px;
 }
 
-.description h2 {
+.description h3 {
   color: var(--text-color);
   font-weight: 600;
   margin: 10px 0;
-  font-size: 24px;
+  font-size: 22px;
   text-align: left;
+}
+
+.description h4 {
+  padding-bottom: 5px;
 }
 
 .description p {
