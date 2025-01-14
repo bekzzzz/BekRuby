@@ -222,6 +222,10 @@ section.testimonial-small-tours {
   .small-tours-btn {
     padding: 10px 40px;
   }
+
+  .testimonial-small-tours {
+    padding-bottom: 200px;
+  }
 }
 
 @media (max-width: 480px) {
