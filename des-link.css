@@ -57,6 +57,10 @@ a {
   transition: background 0.3s;
 }
 
+.dropdown-link-uz {
+  display: none;
+}
+
 .dropdown-link:hover {
   background-color: #555;
 }

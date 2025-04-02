@@ -23,11 +23,7 @@
 
 .murmur-sub-header {
   width: 100%;
-  height: 50vh;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.8)),
-    url(blog/murmur.jpg);
-  background-position: center;
-  background-size: cover;
+  background-color: #42778f;
   text-align: center;
 }
 
@@ -137,6 +133,10 @@
   margin-top: 10px;
   line-height: 40px;
   color: var(--text-color-p-grey);
+}
+
+.related-blogs-section {
+  display: none;
 }
 
 @media (max-width: 700px) {
@@ -255,5 +255,137 @@
     width: 70%;
     margin: auto;
     line-height: 27px;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.header {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 100%;
+  background-color: #42778f;
+}
+
+nav {
+  display: flex;
+  padding: 0% 15%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  width: 250px;
+}
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 12px;
+  position: relative;
+}
+.nav-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+nav .fa {
+  display: none;
+}
+.blog-container {
+  max-width: 800px;
+  margin: 0px auto;
+  padding-bottom: 20px;
+  border-radius: 0px;
+}
+
+.blog-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Add more media queries to cover a wider range of screen sizes */
+@media (max-width: 1024px) {
+  /* Add styles for larger screens */
+  .blog-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Add styles for medium screens */
+  .blog-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Add styles for small screens */
+  .blog-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 320px) {
+  /* Add styles for very small screens */
+  .blog-container {
+    width: 90%;
+  }
+}
+
+h1 {
+  color: #2b2b2b;
+  font-size: 28px;
+  margin-top: 64px;
+  margin-bottom: 16px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+h2 {
+  color: #2b2b2b;
+  font-size: 24px;
+}
+.highlight {
+  background-color: #e6f7ff;
+  padding: 10px;
+  border-left: 5px solid #0078a8;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
+  .related-blogs {
+    flex-direction: column;
+  }
+  .related-blog-item {
+    width: 100%;
+    margin-bottom: 30px;
   }
 }

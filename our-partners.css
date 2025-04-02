@@ -1,6 +1,7 @@
 /*---------- why choose us--------*/
 .our-partners-section {
   background-color: #f5f5f5;
+  display: none;
 }
 
 .our-partners {
