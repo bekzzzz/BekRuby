@@ -491,6 +491,12 @@ div .testimonial-starts-tour .fa {
   }
 }
 
+@media screen and (max-width: 479px) {
+  .row-tour {
+    flex-direction: column; /* or any other value you prefer */
+  }
+}
+
 @media (min-width: 480px) and (max-width: 768px) {
   div .testimonial-starts-tour .fa {
     margin-right: -15px;
