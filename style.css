@@ -447,8 +447,33 @@ nav .fa {
   margin-left: 22px;
 }
 
+.tour-days {
+  margin-top: 32px;
+  flex-direction: row;
+}
+
+.tour-days .fa {
+  margin-left: 22px;
+}
+
+.tour-days p {
+  margin-left: 23px;
+}
+
+.tour-col:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.row-tour:hover > :not(:hover) {
+  opacity: 1;
+}
+
+.tour h1 {
+  font-size: 24px;
+}
+
 div .testimonial-starts-tour {
-  padding-left: 20px;
+  padding-left: 0px;
 }
 
 div .testimonial-starts-tour .fa {
@@ -466,115 +491,116 @@ div .testimonial-starts-tour .fa {
   }
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 768px) {
   div .testimonial-starts-tour .fa {
     margin-right: -15px;
   }
-}
-.row-tour {
-  flex-direction: column;
-}
 
-.tour-days {
-  display: flex;
-  margin-top: 32px;
-  align-items: center;
-}
-
-.tour-days .fa {
-  margin-left: 22px;
-}
-
-.tour-days p {
-  margin-left: 10px;
-}
-
-.tour-col:hover {
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
-}
-
-.row-tour:hover > :not(:hover) {
-  opacity: 1;
-}
-
-.tour h1 {
-  font-size: 24px;
-}
-
-@media (min-width: 768px) {
   .row-tour {
-    flex-direction: row; /* or any other value you prefer */
+    flex-direction: column; /* or any other value you prefer */
   }
 }
 
 /*---------- why choose us--------*/
-.why-us {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  padding-top: 150px;
-  padding-bottom: 100px;
-}
-
-.why-us h1 {
-  font-size: 32px;
-  font-weight: 600;
-  color: var(--text-color);
+.why-us-container {
+  display: flex;
+  min-height: 100vh;
   margin-bottom: 50px;
 }
 
-.why-us p {
-  color: var(--text-color-p-grey);
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 22px;
-  padding: 10px;
+.left {
+  flex: 1;
+  background: url("images/why-us-1.png") no-repeat center center;
+  background-size: cover;
 }
 
-.row {
-  margin-top: 5%;
+.right {
+  flex: 1;
+  padding: 60px;
+  background-color: #fff;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.why-col {
-  flex-basis: 31%;
-  /*background-color: #faf3ef;*/
-  border-radius: 10px;
-  margin-bottom: 5%;
-  padding: 20px 12px;
-  box-sizing: border-box;
-  box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.1);
+.right h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 
-.why-col-img {
-  width: 50%;
-  margin: auto;
+.right ul {
+  list-style: none;
 }
 
-.why-col img {
-  object-fit: cover;
-  width: 10px;
-  height: auto;
-  margin: auto;
+.right ul li {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  padding-left: 25px;
+  position: relative;
 }
 
-.why-us h3 {
-  text-align: center;
-  font-weight: 600;
-  margin: 10px 0;
-  color: var(--text-color-p-grey);
+.right ul li::before {
+  content: "\2713";
+  position: absolute;
+  left: 0;
+  color: #2ecc71;
+  font-weight: bold;
 }
 
-@media (max-width: 700px) {
-  .why-us h1 {
-    font-size: 24px;
-  }
-  .row {
+/* Media queries */
+
+@media (max-width: 1024px) {
+  .why-us-container {
     flex-direction: column;
   }
+
+  .left,
+  .right {
+    flex: none;
+    width: 100%;
+    min-height: 300px;
+  }
 }
 
+@media (max-width: 768px) {
+  .right {
+    padding: 30px;
+  }
+
+  .right h2 {
+    font-size: 2rem;
+  }
+
+  .right ul li {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .why-us-container {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .left,
+  .right {
+    flex: none;
+    width: 100%;
+    min-height: 200px;
+  }
+
+  .right {
+    padding: 20px;
+  }
+
+  .right h2 {
+    font-size: 1.5rem;
+  }
+
+  .right ul li {
+    font-size: 0.9rem;
+  }
+}
 /*---------- our videos--------*/
 
 .section-video {
