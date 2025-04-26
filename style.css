@@ -534,23 +534,8 @@ div .testimonial-starts-tour .fa {
   margin-bottom: 20px;
 }
 
-.right ul {
-  list-style: none;
-}
-
-.right ul li {
+.first-why-us-message {
   margin-bottom: 15px;
-  font-size: 1.1rem;
-  padding-left: 25px;
-  position: relative;
-}
-
-.right ul li::before {
-  content: "\2713";
-  position: absolute;
-  left: 0;
-  color: #2ecc71;
-  font-weight: bold;
 }
 
 /* Media queries */
